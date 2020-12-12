@@ -7,7 +7,7 @@ IF "%1"=="ALL" GOTO ALL
 IF "%1"=="all" GOTO ALL
 GOTO DIR
 :ALL
-ALL.BAT
+ALL.BAT %2 %3
 GOTO END
 :DIR
 CD %1
