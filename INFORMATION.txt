@@ -1,0 +1,12 @@
+It is possible to create a functioning MSDOS image from this code.
+
+The orig.img file contains files that were not made available to us by microsoft.
+
+the following steps are required to compile the image:
+In the MK.BAT file, the path must be adapted to masm.
+
+[MSDOS]
+MK ALL
+
+[linux]
+sh modern-tools/inject-all.sh
